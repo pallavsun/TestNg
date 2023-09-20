@@ -31,7 +31,7 @@ public class Screennavigation {
 		//Creating instance of Chrome driver
 		driver=new ChromeDriver();
 
-		//Maximize  the browser 
+		//Maximize  the browser window
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 
